@@ -8,7 +8,7 @@ img {
     margin-top: 1500PX;
     margin-left: 1400px;
     animation-name: beki;
-    animation-duration: 2s;
+    animation-duration: 2s; 
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
 }
