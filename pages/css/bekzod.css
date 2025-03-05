@@ -1,0 +1,28 @@
+body {
+    background-image: url("./image.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+img {
+    margin-top: 1500PX;
+    margin-left: 1400px;
+    animation-name: beki;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+img:hover{
+    animation-play-state: paused;
+}
+
+@keyframes beki {
+    from {
+        margin-bottom: 1700px;
+    }
+
+    to {
+        margin-top: -2000px;
+    }
+}
